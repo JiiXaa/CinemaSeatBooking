@@ -16,7 +16,7 @@ function updateSelectedCount() {
   total.innerText = selectedSeatsCount * ticketPrice;
 }
 
-// Movie select event - update selected movie ticket price
+// Movie select event - update tickets price
 movieSelect.addEventListener('change', (e) => {
   ticketPrice = +e.target.value;
   updateSelectedCount();
